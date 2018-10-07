@@ -310,18 +310,19 @@ nav h1 a {
     padding: 10px;
 }
 
-#restaurant-container, #review-container{
+/* #restaurant-container, #review-container{
  
   width: 100%;
-}
+} */
 
-#restaurants-list {
+/* #restaurants-list {
   padding: 15px 0 15px;
-}
+} */
 .inside #footer {
   width: 100%;
+  transform: translateY(200px);
+  z-index: 3;
 }
-
 #breadcrumb{
  width: 100%;
 }
@@ -330,4 +331,18 @@ nav h1 a {
   position: relative;
   width: 100%;
 }
+
+#restaurant-info-reviews {
+  width: 100%;
+  transform: translateY(200px);
+  z-index: 1;
+  background-color: #f3f3f3;
+}
+
+#reviews-list li {
+  margin: 0 auto 30px;
+  padding: 20px;
+  width: 95%;
+}
+
 }
