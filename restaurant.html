@@ -22,7 +22,7 @@
   <header>
     <!-- Beginning nav -->
     <nav>
-      <h1><a href="/">Restaurant Reviews</a></h1>
+      <h1><a aria-label="Selected Restaurant" tabIndex="1" href="/">Restaurant Reviews</a></h1>
     </nav>
     <!-- Beginning breadcrumb -->
     <ul id="breadcrumb" >
@@ -41,18 +41,19 @@
     </section>
     <!-- End map -->
     <!-- Beginning restaurant -->
-    <section id="restaurant-container">
-      <h1 id="restaurant-name"></h1>
-      <img id="restaurant-img">
-      <p id="restaurant-cuisine"></p>
-      <p id="restaurant-address"></p>
-      <table id="restaurant-hours"></table>
+    <section aria-label="Resturant Details" tabindex="2" id="restaurant-container">
+      <h1 tabindex="2" id="restaurant-name"></h1>
+      <img tabindex="2" id="restaurant-img">
+      <p tabindex="2" id="restaurant-cuisine"></p>
+      <p tabindex="2" id="restaurant-address"></p>
+      <table tabindex="2" id="restaurant-hours"></table>
     </section>
     <!-- end restaurant -->
     <!-- Beginning reviews -->
-    <section id="reviews-container">
-      <ul id="reviews-list"></ul>
+    <section aria-label="Resturant Reviews" tabindex="2" id="reviews-container">
+      <ul tabindex="2" id="reviews-list"></ul>
     </section>
+    <p tabindex="2" aria-label="End of all reviews"></p>
     <!-- End reviews -->
   </main>
   <!-- End main -->
